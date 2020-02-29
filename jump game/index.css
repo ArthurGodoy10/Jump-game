@@ -1,0 +1,92 @@
+body {
+       font-family:Helvetic, "Lucida Sans", Verdana, sans-serif;
+       width:100%;
+       margin:100px auto 40px;
+       border-bottom: 50%;
+       text-align: center;
+       color: black;
+       background-color:orange;
+     }
+
+header{
+    background-color: rgba(0, 0, 0, 0.85);
+    color:white;
+  	padding:0 2em;
+
+    position: fixed;
+    top: auto;
+    top:0;
+    left: 0;
+    right: 0;
+
+    z-index: 10;
+}
+
+
+#btn-play {
+  padding: 5px 5px 5px 5px;
+  background: orange;
+  text-decoration: none;
+  border: 2px solid orange;
+  font-weight: bold;
+  font-size: 1em;
+  color: black;
+  outline: none;
+}
+
+#btn-play:hover {
+  padding: 5px 25px 5px 25px;
+  background: white;
+  text-decoration: none;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 1.8em;
+  color: black;
+  outline: none;
+  transition: .5s;
+}
+
+
+p { line-height: 1.5;
+    color: white;
+ }
+
+
+h2 { color:white; }
+
+h1 { color: white; }
+
+
+
+#favoritos {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.jogo {
+  margin-top: 50px;
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.foto>img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+
+.info {
+        width: 50%;
+        max-height: 100%;
+        padding: 0px 0px 0px 5px;
+        font-size: .8em;
+        text-align: left;
+      }
